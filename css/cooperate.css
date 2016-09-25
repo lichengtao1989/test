@@ -1,0 +1,132 @@
+/* line 2, ../sass/cooperate.scss */
+html, body {
+  height: 100%;
+}
+
+/* line 5, ../sass/cooperate.scss */
+body {
+  margin: 0 auto;
+  font-family: "Microsoft YaHei";
+}
+
+/* line 9, ../sass/cooperate.scss */
+.container {
+  margin: 0 auto;
+  width: 15rem;
+  height: 100%;
+  background: url("../images/bg.jpg") repeat-x;
+  background-size: 100% 100%;
+  position: relative;
+}
+/* line 16, ../sass/cooperate.scss */
+.container .header {
+  position: relative;
+  height: 19.6%;
+  width: 15rem;
+}
+/* line 20, ../sass/cooperate.scss */
+.container .header .zhong {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 15rem;
+  color: #daeeff;
+  font-size: 0.96rem;
+  font-weight: bold;
+  line-height: 4.76rem;
+  text-align: center;
+}
+/* line 32, ../sass/cooperate.scss */
+.container .slider {
+  width: 15rem;
+  height: 72.16%;
+  overflow: hidden;
+}
+/* line 36, ../sass/cooperate.scss */
+.container .slider .swiper-container {
+  width: 15rem;
+  height: 100%;
+}
+/* line 41, ../sass/cooperate.scss */
+.container .slider .swiper-container .swiper-wrapper .swiper-slide {
+  width: 15rem;
+  height: 100%;
+  background-color: #fff;
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+}
+/* line 47, ../sass/cooperate.scss */
+.container .slider .swiper-container .swiper-wrapper .swiper-slide .swiper-slide-shadow-right,
+.container .slider .swiper-container .swiper-wrapper .swiper-slide .swiper-slide-shadow-left {
+  border-radius: 0.4rem;
+  -webkit-border-radius: 0.4rem;
+  background-image: linear-gradient(to bottom, rgba(57, 79, 130, 0.9), rgba(67, 134, 205, 0.9));
+}
+/* line 56, ../sass/cooperate.scss */
+.container .slider .swiper-container .logo {
+  margin: 1rem auto 0;
+  height: 2.52rem;
+  width: 5.4rem;
+  background: url("../images/logo.jpg") 0 0 no-repeat;
+  background-size: 100%;
+}
+/* line 63, ../sass/cooperate.scss */
+.container .slider .swiper-container .logo2 {
+  background: url("../images/logo.jpg") 0 -2.52rem no-repeat;
+  background-size: 100%;
+}
+/* line 67, ../sass/cooperate.scss */
+.container .slider .swiper-container .logo3 {
+  background: url("../images/logo.jpg") 0 -5.04rem no-repeat;
+  background-size: 100%;
+}
+/* line 71, ../sass/cooperate.scss */
+.container .slider .swiper-container .logo4 {
+  background: url("../images/logo.jpg") 0 -7.56rem no-repeat;
+  background-size: 100%;
+}
+/* line 75, ../sass/cooperate.scss */
+.container .slider .swiper-container .logo5 {
+  background: url("../images/logo.jpg") 0 -10.08rem no-repeat;
+  background-size: 100%;
+}
+/* line 79, ../sass/cooperate.scss */
+.container .slider .swiper-container .logo6 {
+  background: url("../images/logo.jpg") 0 -12.6rem no-repeat;
+  background-size: 100%;
+}
+/* line 83, ../sass/cooperate.scss */
+.container .slider .swiper-container .logo7 {
+  background: url("../images/logo.jpg") 0 -15.12rem no-repeat;
+  background-size: 100%;
+}
+/* line 87, ../sass/cooperate.scss */
+.container .slider .swiper-container .title {
+  height: 2.2rem;
+  line-height: 2.2rem;
+  color: #333;
+  font-size: 0.56rem;
+  font-weight: bold;
+  text-align: center;
+}
+/* line 95, ../sass/cooperate.scss */
+.container .slider .swiper-container .content {
+  padding: 0 0.88rem;
+  font-size: 0.48rem;
+  line-height: 1rem;
+}
+/* line 102, ../sass/cooperate.scss */
+.container .slider .swiper-pagination {
+  left: 50%;
+  transform: translate(-50%, 0);
+  -webkit-transform: translate(-50%, 0);
+}
+/* line 106, ../sass/cooperate.scss */
+.container .slider .swiper-pagination .swiper-pagination-bullet {
+  background-color: #61a7e9;
+  margin-right: 0.2rem;
+}
+/* line 110, ../sass/cooperate.scss */
+.container .slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #e9f3fc;
+}
